@@ -75,7 +75,7 @@ export function AuthPage() {
         }}
       />
 
-      {/* {!accessStore.hideUserApiKey ? (
+      {!accessStore.hideUserApiKey ? (
         <>
           <div className={styles["auth-tips"]}>{Locale.Auth.SubTips}</div>
           <PasswordInput
@@ -105,7 +105,7 @@ export function AuthPage() {
             }}
           />
         </>
-      ) : null} */}
+      ) : null}
 
       <div className={styles["auth-actions"]}>
         <IconButton
@@ -165,7 +165,7 @@ function TopBanner() {
     >
       <div className={`${styles["top-banner-inner"]} no-dark`}>
         <Logo className={styles["top-banner-logo"]}></Logo>
-        {/* <span>
+        <span>
           {Locale.Auth.TopTips}
           <a
             href={SAAS_CHAT_URL}
@@ -177,7 +177,7 @@ function TopBanner() {
             {Locale.Settings.Access.SaasStart.ChatNow}
             <Arrow style={{ marginLeft: "4px" }} />
           </a>
-        </span> */}
+        </span>
       </div>
       {(isHovered || isMobile) && (
         <Delete className={styles["top-banner-close"]} onClick={handleClose} />
