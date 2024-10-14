@@ -91,8 +91,21 @@ export function ModelConfigList(props: {
         subTitle={Locale.Settings.MaxTokens.SubTitle}
       >
 
-        {props.modelConfig.max_tokens}
-   
+        <input
+          aria-label={Locale.Settings.MaxTokens.Title}
+          type="number"
+          min={1024}
+          max={3001}
+          value={props.modelConfig.max_tokens}
+          onChange={(e) =>
+            props.updateConfig(
+              (config) =>
+                (config.max_tokens = ModalConfigValidator.max_tokens(
+                  e.currentTarget.valueAsNumber,
+                )),
+            )
+          }
+        ></input>
       </ListItem>
 
       {props.modelConfig?.providerName == ServiceProvider.Google ? null : (
