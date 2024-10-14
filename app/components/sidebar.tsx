@@ -249,13 +249,13 @@ export function SideBar(props: { className?: string }) {
             }}
             shadow
           />
-          <IconButton
+          {/* <IconButton
             icon={<DiscoveryIcon />}
             text={shouldNarrow ? undefined : Locale.Discovery.Name}
             className={styles["sidebar-bar-button"]}
             onClick={() => setShowPluginSelector(true)}
             shadow
-          />
+          /> */}
         </div>
         {showPluginSelector && (
           <Selector
