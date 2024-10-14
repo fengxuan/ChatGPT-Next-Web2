@@ -90,7 +90,9 @@ export function ModelConfigList(props: {
         title={Locale.Settings.MaxTokens.Title}
         subTitle={Locale.Settings.MaxTokens.SubTitle}
       >
-        <input
+
+        {props.modelConfig.max_tokens}
+        {/* <input
           aria-label={Locale.Settings.MaxTokens.Title}
           type="number"
           min={1024}
@@ -104,7 +106,7 @@ export function ModelConfigList(props: {
                 )),
             )
           }
-        ></input>
+        ></input> */}
       </ListItem>
 
       {props.modelConfig?.providerName == ServiceProvider.Google ? null : (
