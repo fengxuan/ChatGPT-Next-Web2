@@ -47,6 +47,8 @@ export default function RootLayout({
           crossOrigin="use-credentials"
         ></link>
         <script src="/serviceWorkerRegister.js" defer></script>
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2321068205690061"
+     crossorigin="anonymous"></script>
       </head>
       <body>
         {children}
