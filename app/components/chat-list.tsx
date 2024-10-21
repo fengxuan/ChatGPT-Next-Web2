@@ -176,8 +176,8 @@ export function ChatList(props: { narrow?: boolean }) {
               <a
                 href="https://babelchat.lat"
                 target="_blank"
-                rel="noopener noreferrer"
-                className="block text-center py-2 px-4 border border-gray-300 rounded-md text-gray-700 hover:bg-gray-100 transition-colors duration-200"
+                rel="aichat.lat"
+                className="block text-center py-2 px-4 border border-gray-300 rounded-md text-gray-700 hover:bg-gray-100 transition-colors duration-200 no-underline"
               >
                 BabelChat
               </a>
@@ -186,8 +186,8 @@ export function ChatList(props: { narrow?: boolean }) {
               <a
                 href="https://q.spell.lat"
                 target="_blank"
-                rel="noopener noreferrer"
-                className="block text-center py-2 px-4 border border-gray-300 rounded-md text-gray-700 hover:bg-gray-100 transition-colors duration-200"
+                rel="q.spell.lat"
+                className="block text-center py-2 px-4 border border-gray-300 rounded-md text-gray-700 hover:bg-gray-100 transition-colors duration-200 no-underline"
               >
                 Q.Spell
               </a>
