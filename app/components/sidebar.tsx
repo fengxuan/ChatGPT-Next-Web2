@@ -304,7 +304,7 @@ export function SideBar(props: { className?: string }) {
         }}
       >
         <ChatList narrow={shouldNarrow} />
-        <FriendlyLink />
+        
         
       </SideBarBody>
       <SideBarTail

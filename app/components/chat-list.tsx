@@ -18,6 +18,7 @@ import { Mask } from "../store/mask";
 import { useRef, useEffect } from "react";
 import { showConfirm } from "./ui-lib";
 import { useMobileScreen } from "../utils";
+import { FriendlyLink } from "./sidebar";
 
 export function ChatItem(props: {
   onClick?: () => void;
@@ -168,8 +169,7 @@ export function ChatList(props: { narrow?: boolean }) {
           </div>
         )}
       </Droppable>
-
-      
+      <FriendlyLink />
     </DragDropContext>
   );
 }
