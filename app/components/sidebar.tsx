@@ -220,7 +220,7 @@ export function FriendlyLink() {
 function renderFriendlyLink(href: string, title: string) {
   return (
     <p className="mb-2">
-      <a href={href} target="_blank" rel="noopener noreferrer" className="block text-center py-2 px-4 border border-gray-300 rounded-md text-gray-700 hover:bg-gray-100 transition-colors duration-200 no-underline">
+      <a href={href} target="_blank" alt={title} rel="noopener noreferrer" className="block text-center py-2 px-4 border border-gray-300 rounded-md text-gray-700 hover:bg-gray-100 transition-colors duration-200 no-underline">
           {title}
       </a>
     </p>
