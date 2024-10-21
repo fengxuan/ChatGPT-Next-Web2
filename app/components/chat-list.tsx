@@ -169,7 +169,7 @@ export function ChatList(props: { narrow?: boolean }) {
         )}
       </Droppable>
 
-      <div className="border-t border-gray-300 mt-4 pt-4">
+      <div className="border-t border-light-blue mt-4 pt-4 border-b border-light-blue">
         <h4 className="text-lg font-semibold mb-3 text-center">
           friendly link
         </h4>
@@ -179,7 +179,7 @@ export function ChatList(props: { narrow?: boolean }) {
                 href="https://babelchat.lat"
                 target="_blank"
                 rel="aichat.lat"
-                className="block text-center py-2 px-4 border border-gray-300 rounded-md text-gray-700 hover:bg-gray-100 transition-colors duration-200 no-underline"
+                className="block  text-center py-2 px-4 border border-gray-300 rounded-md text-gray-700 hover:bg-gray-100 transition-colors duration-200 no-underline"
               >
                 BabelChat
               </a>
