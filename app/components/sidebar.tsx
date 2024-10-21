@@ -205,7 +205,7 @@ export function FriendlyLink() {
   return (
     <div className="border-t border-light-blue mt-4 pt-4">
         <h4 className="text-lg font-semibold mb-3 text-center">
-          friendly link
+          更多好玩
         </h4>
         <div className="flex flex-col space-y-2">
           {renderFriendlyLink("https://babelchat.lat", "BabelChat")}
@@ -233,6 +233,8 @@ export function SideBarTail(props: {
 
   return (
     <div className={styles["sidebar-tail"]}>
+      <div className={styles["sidebar-actions"]}>{primaryAction}</div>
+      <div className={styles["sidebar-actions"]}>{secondaryAction}</div>
     </div>
   );
 }
