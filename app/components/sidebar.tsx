@@ -233,7 +233,7 @@ export function FriendlyLink(props: {
             </p>
         </div>
     </div>
-  )
+  );
 }
   
 export function SideBarTail(props: {
