@@ -208,29 +208,21 @@ export function FriendlyLink() {
           friendly link
         </h4>
         <div className="flex flex-col space-y-2">
-          <p className="mb-2">
-              <a
-                href="https://babelchat.lat"
-                target="_blank"
-                rel="aichat.lat"
-                className="block  text-center py-2 px-4 border border-gray-300 rounded-md text-gray-700 hover:bg-gray-100 transition-colors duration-200"
-              >
-                BabelChat
-              </a>
-            </p>
-            <p>
-              <a
-                href="https://q.spell.lat"
-                target="_blank"
-                rel="q.spell.lat"
-                className="block text-center py-2 px-4 border border-gray-300 rounded-md text-gray-700 hover:bg-gray-100 transition-colors duration-200"
-              >
-                Q.Spell
-              </a>
-            </p>
+          {renderFriendlyLink("https://babelchat.lat", "BabelChat")}
+          {renderFriendlyLink("https://q.spell.lat", "Q.Spell")}
         </div>
-    </div>
+      </div>
   );
+}
+
+function renderFriendlyLink(href: string, title: string) {
+  return (
+    <span className="mb-2">
+      <a href={href} target="_blank" rel="noopener noreferrer" className="block text-center py-2 px-4 border border-gray-300 rounded-md text-gray-700 hover:bg-gray-100 transition-colors duration-200 no-underline">
+          {title}
+      </a>
+    </span>
+  )
 }
   
 export function SideBarTail(props: {
