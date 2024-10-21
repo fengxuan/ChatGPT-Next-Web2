@@ -170,9 +170,11 @@ export function ChatList(props: { narrow?: boolean }) {
       </Droppable>
 
       <div className="border-t border-gray-300 mt-4 pt-4">
-        <h3 className="text-lg font-semibold mb-3 text-center">友情链接</h3>
-          <div className="flex flex-col space-y-2">
-            <p className="mb-2">
+        <h4 className="text-lg font-semibold mb-3 text-center">
+          friendly link
+        </h4>
+        <div className="flex flex-col space-y-2">
+          <p className="mb-2">
               <a
                 href="https://babelchat.lat"
                 target="_blank"
