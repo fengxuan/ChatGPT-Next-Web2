@@ -201,10 +201,7 @@ export function SideBarBody(props: {
   );
 }
 
-export function FriendlyLink(props: {
-  children: React.ReactNode;
-  onClick?: (e: React.MouseEvent<HTMLDivElement, MouseEvent>) => void;
-}) {
+export function FriendlyLink() {
   return (
     <div className="border-t border-light-blue mt-4 pt-4">
         <h4 className="text-lg font-semibold mb-3 text-center">
