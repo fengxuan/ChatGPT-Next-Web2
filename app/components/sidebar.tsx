@@ -210,6 +210,8 @@ export function FriendlyLink() {
         <div className="flex flex-col space-y-2">
           {renderFriendlyLink("https://babelchat.lat", "BabelChat")}
           {renderFriendlyLink("https://q.spell.lat", "Q.Spell")}
+          {renderFriendlyLink("https://apps.apple.com/id/app/spell-learn/id6736675588", "Spell App")}
+          {renderFriendlyLink("https://apps.apple.com/id/app/babelchat/id6476923320", "Babel Chat App")}
         </div>
       </div>
   );
