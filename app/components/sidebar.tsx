@@ -226,19 +226,16 @@ export function FriendlyLink(props: {
                 href="https://q.spell.lat"
                 target="_blank"
                 rel="q.spell.lat"
-                className="block text-center py-2 px-4 border border-gray-300 rounded-md text-gray-700 hover:bg-gray-100 transition-colors duration-200∂
+                className="block text-center py-2 px-4 border border-gray-300 rounded-md text-gray-700 hover:bg-gray-100 transition-colors duration-200"
               >
                 Q.Spell
               </a>
             </p>
-          </div>
-      </div>
+        </div>
+    </div>
   )
 }
   
-
-
-
 export function SideBarTail(props: {
   primaryAction?: React.ReactNode;
   secondaryAction?: React.ReactNode;
@@ -247,8 +244,6 @@ export function SideBarTail(props: {
 
   return (
     <div className={styles["sidebar-tail"]}>
-      <div className={styles["sidebar-actions"]}>{primaryAction}</div>
-      <div className={styles["sidebar-actions"]}>{secondaryAction}</div>
     </div>
   );
 }
