@@ -203,7 +203,7 @@ export function SideBarBody(props: {
 
 export function FriendlyLink() {
   return (
-    <div className="border-t border-light-blue mt-auto pt-4">
+    <div className="border-t border-light-blue mt-4 pt-4 chat-item">
         <h4 className="text-lg font-semibold mb-3 text-center">
           more fun
         </h4>
