@@ -203,9 +203,9 @@ export function SideBarBody(props: {
 
 export function FriendlyLink() {
   return (
-    <div className="border-t border-light-blue mt-4 pt-4">
+    <div className="border-t border-light-blue mt-auto pt-4">
         <h4 className="text-lg font-semibold mb-3 text-center">
-          更多好玩
+          more fun
         </h4>
         <div className="flex flex-col space-y-2">
           {renderFriendlyLink("https://babelchat.lat", "BabelChat")}
@@ -213,7 +213,7 @@ export function FriendlyLink() {
           {renderFriendlyLink("https://apps.apple.com/id/app/spell-learn/id6736675588", "Spell App")}
           {renderFriendlyLink("https://apps.apple.com/id/app/babelchat/id6476923320", "Babel Chat App")}
         </div>
-      </div>
+    </div>
   );
 }
 
