@@ -1,5 +1,6 @@
 import md5 from "spark-md5";
 import { DEFAULT_MODELS, DEFAULT_GA_ID } from "../constant";
+import tr from "../locales/tr";
 
 declare global {
   namespace NodeJS {
@@ -224,7 +225,7 @@ export const getServerSideConfig = () => {
     isVercel: !!process.env.VERCEL,
 
     hideUserApiKey: !!process.env.HIDE_USER_API_KEY,
-    disableGPT4,
+    disableGPT4: true,
     hideBalanceQuery: !process.env.ENABLE_BALANCE_QUERY,
     disableFastLink: !!process.env.DISABLE_FAST_LINK,
     customModels,

@@ -238,18 +238,18 @@ export const GEMINI_SUMMARIZE_MODEL = "gemini-pro";
 
 export const KnowledgeCutOffDate: Record<string, string> = {
   default: "2021-09",
-  "gpt-4-turbo": "2023-12",
-  "gpt-4-turbo-2024-04-09": "2023-12",
-  "gpt-4-turbo-preview": "2023-12",
-  "gpt-4o": "2023-10",
-  "gpt-4o-2024-05-13": "2023-10",
-  "gpt-4o-2024-08-06": "2023-10",
-  "chatgpt-4o-latest": "2023-10",
-  "gpt-4o-mini": "2023-10",
-  "gpt-4o-mini-2024-07-18": "2023-10",
-  "gpt-4-vision-preview": "2023-04",
-  "o1-mini": "2023-10",
-  "o1-preview": "2023-10",
+  // "gpt-4-turbo": "2023-12",
+  // "gpt-4-turbo-2024-04-09": "2023-12",
+  // "gpt-4-turbo-preview": "2023-12",
+  // "gpt-4o": "2023-10",
+  // "gpt-4o-2024-05-13": "2023-10",
+  // "gpt-4o-2024-08-06": "2023-10",
+  // "chatgpt-4o-latest": "2023-10",
+  // "gpt-4o-mini": "2023-10",
+  // "gpt-4o-mini-2024-07-18": "2023-10",
+  // "gpt-4-vision-preview": "2023-04",
+  // "o1-mini": "2023-10",
+  // "o1-preview": "2023-10",
   // After improvements,
   // it's now easier to add "KnowledgeCutOffDate" instead of stupid hardcoding it, as was done previously.
   "gemini-pro": "2023-12",
@@ -289,9 +289,9 @@ const openaiModels = [
   // "gpt-4-vision-preview",
   // "gpt-4-turbo-2024-04-09",
   // "gpt-4-1106-preview",
-  "dall-e-3",
-  "o1-mini",
-  "o1-preview",
+  // "dall-e-3",
+  // "o1-mini",
+  // "o1-preview",
 ];
 
 const googleModels = [
